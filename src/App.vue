@@ -77,7 +77,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: true,
-      title: 'Liderlogo Admin'
+      title: 'Superlogos Admin'
     }
   },
   methods: {

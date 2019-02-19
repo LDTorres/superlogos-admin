@@ -1,7 +1,7 @@
 const app = {
   sidemenu:
   [
-    {
+    /* {
       title: 'Estudio de datos',
       routes: [{
         icon: 'assessment',
@@ -16,7 +16,7 @@ const app = {
         title: 'Listado',
         route: 'projects'
       }]
-    },
+    }, */
     {
       title: 'Ubicaciones',
       routes: [{
@@ -52,11 +52,11 @@ const app = {
         title: 'Ordenes',
         route: 'orders'
       },
-      {
+      /* {
         icon: 'payment',
         title: 'Safety Pay',
         route: 'safetypay'
-      },
+      }, */
       {
         icon: 'money',
         title: 'Monedas',
@@ -66,12 +66,12 @@ const app = {
         icon: 'payment',
         title: 'Pasarelas',
         route: 'gateways'
-      },
-      {
+      }/*,
+       {
         icon: 'card_giftcard',
         title: 'Cupones',
         route: 'coupons'
-      }]
+      } */]
     },
     {
       title: 'Clientes',
