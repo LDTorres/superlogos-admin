@@ -25,7 +25,7 @@
                 </v-flex>
 
                 <v-flex xs4>
-                  <v-text-field type="number" name="Porcentage" v-validate="'required|numeric|max:2'" v-model="editedItem.percentage" label="Porcentage"></v-text-field>
+                  <v-text-field type="number" name="Porcentage" v-validate="'required|numeric|max:3'" v-model="editedItem.percentage" label="Porcentage"></v-text-field>
                   <span v-show="errors.has('Porcentage')">{{ errors.first('Porcentage') }}</span>
                 </v-flex>
 
